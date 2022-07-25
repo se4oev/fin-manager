@@ -14,9 +14,12 @@
     <packaging>war</packaging>
     <name>fin-server</name>
     <description>fin-server</description>
+
     <properties>
         <java.version>17</java.version>
+        <fin.common.version>SNAPSHOT</fin.common.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,6 +44,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>ru.se4oev</groupId>
+            <artifactId>fin-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
